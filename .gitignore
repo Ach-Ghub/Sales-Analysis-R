@@ -1,0 +1,12 @@
+# R-specific ignores
+.Rhistory
+.RData
+.Rproj.user/
+.Rapp.history
+
+# Pandoc/Knitting trash
+*.knit.md
+*.utf8.md
+
+# Keep my visual charts (Safety rule)
+!visuals/*.png
