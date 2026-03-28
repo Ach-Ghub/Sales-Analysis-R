@@ -21,7 +21,7 @@ Superstore Sales Dataset (Kaggle)
 ### 1. Sales by Category
 
 <figure>
-<img src="Sales-Analysis-R/visuals/sales_by_category.png"
+<img src="visuals/sales_by_category.png"
 alt="Sales by Category" />
 <figcaption aria-hidden="true">Sales by Category</figcaption>
 </figure>
@@ -33,7 +33,7 @@ business. Followed by Office Supplies, and finally furniture.
 ### 2. Sales by Region
 
 <figure>
-<img src="Sales-Analysis-R/visuals/sales_by_region.png"
+<img src="visuals/sales_by_region.png"
 alt="Sales by Region" />
 <figcaption aria-hidden="true">Sales by Region</figcaption>
 </figure>
@@ -45,7 +45,7 @@ shows the strongest performance.
 ### 3.1 Monthly Sales Trend by Year
 
 <figure>
-<img src="Sales-Analysis-R/visuals/monthly_sales_trend_by_year.png"
+<img src="monthly_sales_trend_by_year.png"
 alt="Monthly Trend By Year" />
 <figcaption aria-hidden="true">Monthly Trend By Year</figcaption>
 </figure>
@@ -57,7 +57,7 @@ years, though some anomalies due to missing data should be addressed.
 ### 3.2 Sales Trend with Rise and Drops by Year
 
 <figure>
-<img src="Sales-Analysis-R/visuals/sales_trend_rise_drop_by_year.png"
+<img src="visuals/sales_trend_rise_drop_by_year.png"
 alt="Sales Trend with Rise and Drops by Year" />
 <figcaption aria-hidden="true">Sales Trend with Rise and Drops by
 Year</figcaption>
@@ -70,7 +70,7 @@ of peak and low-performing months.
 ### 3.3 Sales of Categories Trend over Years
 
 <figure>
-<img src="Sales-Analysis-R/visuals/sales_by_category_over_time.png"
+<img src="visuals/sales_by_category_over_time.png"
 alt="Sales of Categories Trend over Years" />
 <figcaption aria-hidden="true">Sales of Categories Trend over
 Years</figcaption>
@@ -88,7 +88,7 @@ pricing, logistics, or customer demand fluctuations.
 
 <figure>
 <img
-src="Sales-Analysis-R/visuals/monthly_sales_by_category_over_time.png"
+src="visuals/monthly_sales_by_category_over_time.png"
 alt="Monthly Sales by Category with Peaks and Dips Over Years" />
 <figcaption aria-hidden="true">Monthly Sales by Category with Peaks and
 Dips Over Years</figcaption>
@@ -103,7 +103,7 @@ periods and improvement strategies during slower months.
 ### 4.1 Top Customers
 
 <figure>
-<img src="Sales-Analysis-R/visuals/top_10_customers_by_sales.png"
+<img src="visuals/top_10_customers_by_sales.png"
 alt="Top Customers" />
 <figcaption aria-hidden="true">Top Customers</figcaption>
 </figure>
@@ -116,7 +116,7 @@ retention strategies.
 
 <figure>
 <img
-src="Sales-Analysis-R/visuals/revenue_contribution_customer_type_1.png"
+src="visuals/revenue_contribution_customer_type_1.png"
 alt="Revenue Contribution by Customer Type 1" />
 <figcaption aria-hidden="true">Revenue Contribution by Customer Type
 1</figcaption>
@@ -124,7 +124,7 @@ alt="Revenue Contribution by Customer Type 1" />
 
 <figure>
 <img
-src="Sales-Analysis-R/visuals/revenue_contribution_customer_type_2.png"
+src="visuals/revenue_contribution_customer_type_2.png"
 alt="Revenue Contribution by Customer Type 2" />
 <figcaption aria-hidden="true">Revenue Contribution by Customer Type
 2</figcaption>
