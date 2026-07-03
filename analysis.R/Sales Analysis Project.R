@@ -416,15 +416,15 @@ ggsave("Sales-Analysis-R/visuals/monthly_sales_by_category_over_time.png")
 # 6.4 Top Customers
 # ------------------------------------------------------------
 ggplot(top_customers, aes(x = reorder(customer_name, total_sales), y = total_sales, fill = customer_name)) +
-  +     geom_col() +
-  +     coord_flip() +
-  +     labs(
-    +         title = "Top 10 Customers by Sales",
-    +         x = "Customer",
-    +         y = "Total Sales"
-    +     )
-    + geom_text(aes(label = round(total_sales, 0)), vjust = -0.5) +
-  +     theme_minimal()
+       geom_col() +
+       coord_flip() +
+       labs(
+             title = "Top 10 Customers by Sales",
+             x = "Customer",
+             y = "Total Sales"
+         ) +
+     geom_text(aes(label = round(total_sales, 0)), vjust = -0.5) +
+       theme_minimal()
 
 ggsave("top_10_customers_by_sales.png")
 
