@@ -1,6 +1,9 @@
 library(shiny)
 library(shinydashboard)
-library(tidyverse)
+library(dplyr)
+library(ggplot2)
+#library(readr)
+library(tidyr)
 library(janitor)
 library(lubridate)
 library(ggrepel)
@@ -10,7 +13,7 @@ library(scales)
 # 1. DATA PREPARATION LAYER (Executed Once)
 # ==========================================
 # Read and clean the data exactly as your project specified
-train <- read_csv("data/train.csv") %>% clean_names()
+train <- read.csv("data/train.csv") %>% clean_names()
 train$order_date <- as.Date(train$order_date, format = "%m/%d/%Y")
 
 # Feature Engineering
